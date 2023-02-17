@@ -1,0 +1,88 @@
+/*Style for content, background color*/
+html{
+    margin: 0 20%;
+    background-color: rgba(244,240,232,1.00);
+}
+
+/*Style parameters for the header - stays put on top, font, font size*/
+.header {
+    position: sticky;
+    top: 0px;
+    height:75px;
+    background-color: rgba(244,240,232,1.00);
+    line-height:75px;
+    width:100%;
+    font-family: Aboreto;
+    font-size: 30px;
+    text-align: center;
+    color: black;    
+}
+
+body {
+    font-family: Vollkorn;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height:50px;
+    background-color: rgba(244,240,232,1.00);
+    text-align: center;
+    line-height:50px;
+    width:100%;
+    color:gray;
+}
+
+/* Style for links*/
+
+a {
+    color: black;
+}
+
+a:link, a:visited, a:focus, a:hover, a:active {
+    text-decoration: none !important;
+}
+
+h3{
+    font-family: Aboreto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: italic;
+    text-align: right;
+}
+
+.navheader {
+    font-family: Aboreto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+
+.line-break {
+    font-family: Vollkorn;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+.plain {
+    text-decoration: none !important;
+}
+
+.time-stamp {
+    font-family: Vollkorn;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
